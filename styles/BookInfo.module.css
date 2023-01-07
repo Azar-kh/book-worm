@@ -1,0 +1,99 @@
+.bookinfocontainer {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+	overflow: hidden;
+	position: relative;
+	width: 100vw;
+}
+
+.details {
+	background-color: #fbfbf3;
+	color: #232323;
+	display: grid;
+	grid-template-columns: 1fr 3fr;
+	justify-content: space-between;
+	align-items: center;
+	padding: 2rem;
+	height: 80%;
+	width: 80%;
+	border-radius: 10px;
+}
+.pic {
+	margin-left: 2rem;
+}
+.link {
+	text-decoration: none;
+	color: #fbfbf3;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	font-size: large;
+	position: absolute;
+	top: 2rem;
+	left: 2rem;
+}
+
+.first_col,
+.second_col {
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+}
+
+.first_col {
+	align-items: flex-start;
+	justify-content: center;
+	align-items: center;
+}
+
+.first_col_info {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	font-size: large;
+	margin-top: 2rem;
+	margin-left: 2rem;
+}
+
+.first_col_info h5 {
+	margin-bottom: 1rem;
+}
+
+.second_col {
+	margin-left: 2rem;
+}
+
+.second_col_info p {
+	color: darkgray;
+}
+.second_col_info {
+	margin-bottom: 2rem;
+}
+
+@media (max-width: 992px) {
+	.details {
+		padding: 1rem;
+		height: 90%;
+		width: 90%;
+		overflow-y: auto;
+		grid-template-columns: 1fr;
+	}
+
+	.second_col_info {
+		margin: 2rem 0;
+	}
+	.second_col {
+		margin-bottom: 2rem;
+	}
+
+	.pic {
+		margin-left: 0;
+	}
+
+	.link {
+		top: 0;
+		left: 0;
+	}
+}

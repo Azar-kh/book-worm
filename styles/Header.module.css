@@ -1,0 +1,15 @@
+.header {
+	width: 100vw;
+	height: 3rem;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: #232323;
+	color: #fbfbf3;
+}
+
+@media (max-width: 600px) {
+	.header h3 {
+		font-size: 1rem;
+	}
+}
