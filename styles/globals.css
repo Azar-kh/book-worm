@@ -9,7 +9,7 @@
 body {
 	width: 100vw;
 	overflow-x: hidden;
-	background-image: "/homePage.jpg";
+	background-image: url("/homePage.jpg");
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
